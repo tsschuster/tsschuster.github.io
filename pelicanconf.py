@@ -87,7 +87,7 @@ CC_LICENSE = {
 # # -*- coding: utf-8 -*- #
 
 AUTHOR = "Thomas Schuster"
-SITEURL = "http://localhost:8000"
+SITEURL = "tsschuster.github.io"
 SITENAME = "Thomas Schuster"
 SITETITLE = "About"
 #SITESUBTITLE = "The minimalist Pelican theme"
