@@ -32,5 +32,23 @@ body {
   flex: 1; /* Allow the text to fill the remaining space */
 }
 
+/* Media query for mobile devices */
+    @media (max-width: 768px) {
+      .content-container {
+        flex-direction: column; /* Stack image on top of text */
+        align-items: center; /* Center-align content for mobile */
+      }
+
+      .research-interest img {
+        max-width: 100%; /* Make image responsive to smaller screens */
+        width: 100%; /* Full width to match text */
+        margin-bottom: 10px; /* Add some space below the image */
+      }
+
+      .research-interest p {
+        width: 100%; /* Full width for text as well */
+      }
+    }
+
 
 
