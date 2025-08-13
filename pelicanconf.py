@@ -92,7 +92,7 @@ SITENAME = "Thomas Schuster"
 SITETITLE = "About"
 #SITESUBTITLE = "The minimalist Pelican theme"
 SITEDESCRIPTION = "Thomas Schuster's website"
-FAVICON = '/images/lone_molecule.png'
+FAVICON = '/images/tiny_squares.png'
 SITELOGO = '/images/profile_pic.png'
 # HOMETITLE = 'about'
 
