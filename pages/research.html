@@ -102,21 +102,34 @@
   </header>
   <div>
 
-    <p>My research lies at the intersection of quantum information, computing, and many-body physics. I am especially interested in understanding near-term quantum technologies, and what we can do with them. I list several on-going directions below.</p>
+    <p>My research lies at the interface of quantum information science and quantum many-body physics. I am especially interested in understanding near-term quantum technologies and what we can do with them.</p>
+
+    <p>My main research directions are described below. These directions span multiple questions and topics, but are connected by a common focus on understanding the physics of quantum information and complexity at large scales.</p>
 
       <div class="research-interest">
-      <h4><strong>The complexity of many-body quantum dynamics</strong></h4>
+      <h4><strong>Locating quantum advantage in many-body physical systems</strong></h4>
       <div class="content-container">
-        <img src="poly_algorithm.png" alt="poly_algorithm">
-        <p>What is the classical complexity of simulating quantum dynamics? Existing results on classical hardness mostly apply to highly-structured, "worst-case" dynamics, while recent numerical methods suggest that "typical" many-body dynamics may in fact be classically easy. In recent work, we make progress on this question by providing a <a href="https://arxiv.org/abs/2407.12768">polynomial-time classical algorithm</a> for noisy quantum circuits. This builds in part on an earlier work, in which we showed that noisy many-body quantum systems display <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.160402">universal classes of fidelity decay</a>, controlled by their dispersal of quantum information. I am currently interested in understanding the physics of complexity in noiseless quantum dynamics, and connecting these observations with quantum experiments.</p>
+        <img src="complexity.png" alt="complexity">
+        <p>What quantum many-body systems feature scalable computational advantages for quantum experiments over classical simulation? Well-established quantum advantages are restricted to highly-structured computer-scientific problems, while recent numerical methods suggest that "typical" quantum many-body dynamics may be classically easier. We made progress on this question by proving that uncorrected noise imposes <a href="https://journals.aps.org/prx/abstract/10.1103/xct1-7kf2">fundamental limits on the magnitude of quantum advantage</a> that experiments can achieve. More recently, I built on these connections to design experimental protocols in which purposefully-inserted perturbations enable a rich dissection of any  observable by its complexity (with respect to a broad set of recent classical algorithms). In collaboration with Google Quantum AI on their <a href="https://www.nature.com/articles/s41586-025-09526-6">quantum echoes experiment</a>, we showed how these classical approaches fundamentally break down in certain time-reversal experiments.</p>
       </div>
       </div>
 
       <div class="research-interest">
-      <h4><strong>Pseudorandom states and unitaries</strong></h4>
+      <h4><strong>Quantum learning and emergent pseudorandomness</strong></h4>
       <div class="content-container">
         <img src="random_unitary.png" alt="random_unitary">
-        <p>Random unitaries are a key component of several quantum technologies, from quantum device benchmarking to quantum cryptography. They also serve as indispensable toy models for complex processes in quantum many-body physics, quantum machine learning, and quantum gravity. In recent work, we show that local quantum circuits can form <a href="https://www.science.org/doi/10.1126/science.adv8590">random unitaries in exponentially lower circuit depths</a> than previously thought. Our results have widespread applications across theoretical and experimental quantum science. I am currently interested in physically-motivated applications of random unitaries, and in finding quantum advantages in far-from-Haar random dynamics.</p>
+        <p>Controllable quantum experiments have the ability to learn immensely more bountiful properties of quantum systems than conventional approaches. Random unitaries have emerged as a potent tool for illuminating the power and limitations of these abilities. They also serve as toy models of complex processes in quantum many-body physics and quantum gravity. We proved that local quantum circuits can become indistinguishable from random unitaries in <a href="https://www.science.org/doi/10.1126/science.adv8590">exponentially shorter times</a> than previously thought, with widespread applications across physics and quantum science. I am currently investigating the intersection of these emergent pseudorandom behaviors with physical structure. This has led us to <a href="https://arxiv.org/abs/2510.08503">startling subtleties</a> on detecting phases of matter, <a href="https://arxiv.org/abs/2509.26310">stronger random unitary constructions</a> for experiments of interest in quantum cryptography and gravity, and <a href="https://arxiv.org/abs/2510.08434">striking</a> <a href="https://arxiv.org/abs/2507.06216">advances</a> and <a href="https://arxiv.org/abs/2510.08448">no-go</a> <a href="https://arxiv.org/abs/2506.23925">limitations</a> on pseudorandomness in systems with physical constraints.</p>
+      </div>
+      </div>
+
+
+      <div class="research-interest">
+      <h4><strong>The physics of uncorrected errors</strong></h4>
+      <div class="content-container">
+        <img src="error_mitigation.png" alt="error_mitigation">
+        <p>
+        Quantum experiments are afflicted by errors from numerous sources, from environmental decoherence to discretized approximations in quantum simulation algorithms. My work leverages fundamental connections between quantum information dynamics and error to understand and handle uncorrected errors in quantum simulation. I showed that noisy quantum many-body dynamics display <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.160402">universal classes of fidelity decay</a> controlled by their information dispersal. I also applied these ideas to develop bespoke error mitigation strategies in two <a href="https://www.nature.com/articles/s41586-025-09526-6">experimental</a> <a href="https://arxiv.org/abs/2510.19550">collaborations</a> with Google Quantum AI. Looking forward, I hope to extend these insights to broader physics-informed frameworks for error mitigation, correction, and quantum simulation.
+      </p>
       </div>
       </div>
 
@@ -130,24 +143,24 @@
           Despite this promise, several concrete challenges remain.
           In an earlier work, we showed how a novel <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.031013">"many-body" form of quantum teleportation</a> can be used as an experimental litmus test for detecting gravitational dynamics.
           We demonstrated a toy example of this teleportation in <a href="https://www.nature.com/articles/s41586-019-0952-6">two</a> <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.021010">experiments</a>, and <a href="https://www.nature.com/articles/s41586-025-08939-7">helped to clarify</a> a third realization.
-          In more recent work, we tackle another challenge, by providing a simple and efficient experimental protocol to cool these Hamiltonians to low temperatures, where the gravitational duality applies.
+          In more recent work, we tackled another challenge, by providing a simple and efficient experimental protocol to <a href="https://arxiv.org/abs/2511.09620">cool</a> these Hamiltonians to low temperatures, where the gravitational duality applies.
       </p>
       </div>
       </div>
 
       <div class="research-interest">
-      <h4><strong>Quantum learning and quantum-enhanced metrology</strong></h4>
+      <h4><strong>Quantum-enhanced metrology and many-body Hamiltonian learning</strong></h4>
       <div class="content-container">
         <img src="metrology.png" alt="metrology">
-        <p>Learning properties of quantum systems can present challenges and opportunities not present in their classical counterparts. My work has intersected this (broad) topic several times. In recent work, we introduced a <a href="https://www.arxiv.org/abs/2411.12794">"universal" protocol for quantum-enhanced sensing</a> of an external field, using solely the dynamics of a generic many-body Hamiltonian. This opens the door to quantum-enhanced metrology in new platforms, such as solid-state spin defects. In a separate work, we showed that <a href="https://arxiv.org/abs/2304.07172">learning a many-body Hamiltonian</a> <em>itself</em> at the Heisenberg limit is not possible without a high degree of experimental "control". I also showed how time-reversal protocols can lead to <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.108.062608">exponential advantages</a> in <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043284">Hamiltonian learning</a> in several physical scenarios. </p>
+        <p>Estimating the Hamiltonians of quantum systems is a central goal of metrology and device characterization. We introduced a <a href="https://www.arxiv.org/abs/2411.12794">versatile new protocol for quantum-enhanced sensing</a> of an external field, using solely the dynamics of a generic many-body Hamiltonian. This opens the door to quantum-enhanced metrology in new platforms, such as solid-state spin defects. In separate work, we showed that <a href="https://quantum-journal.org/papers/q-2024-11-26-1537/">learning <em>many-body</em> Hamiltonians</a> at the Heisenberg limit is not possible without a high amount of experimental "control". I also showed that out-of-time-order correlators can <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.108.062608">exponentially improve</a> <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043284">Hamiltonian learning</a>, helping motivate a proof-of-concept experiment at Google Quantum AI that used <a href="https://arxiv.org/abs/2510.19550">quantum computation to infer molecular geometries</a> from NMR data more accurately than standard methods.</p>
       </div>
       </div>
 
       <div class="research-interest">
-      <h4><strong>Out-of-equilibrium topological phenomena and topological codes</strong></h4>
+      <h4><strong>Out-of-equilibrium topological phenomena in AMO experiments</strong></h4>
       <div class="content-container">
         <img src="braiding.png" alt="braiding">
-        <p>In the past, I also worked on novel topological phenomena in atomic, molecular, and optical quantum systems. These systems provide an entirely new physical context for the realization of topological phases, particularly in out-of-equilibrium settings. We <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.073901">predicted</a> and <a href="https://www.nature.com/articles/s41567-020-1007-5">experimentally observed</a> an analogue of non-Abelian statistics in photonic systems; predicted a <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.266803">new, driven phase of topological matter</a>; and provided a toolkit for realizing <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.015301">topological insulators</a> in <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.063322">polar molecule quantum simulators</a>. More recently, we introduced a theoretical framework to characterize the <a href="https://arxiv.org/abs/2312.04617">bulk-boundary correspondence in topological stabilizer codes</a>; for example, this allows us to extend known results on 2D stabilizer codes to fracton codes in higher-dimensions.</p>
+        <p>In the past, I also worked on novel topological phenomena in atomic, molecular, and optical quantum systems. These systems provide an entirely new physical context for the realization of topological phases, particularly in out-of-equilibrium settings. We <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.073901">predicted</a> and <a href="https://www.nature.com/articles/s41567-020-1007-5">experimentally observed</a> an analogue of non-Abelian statistics in photonic systems; predicted a <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.266803">new, driven phase of topological matter</a>; and provided a toolkit for realizing <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.015301">topological insulators</a> in <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.063322">polar molecule quantum simulators</a>. In theoretical work, we introduced a systematic framework to characterize <a href="https://arxiv.org/abs/2312.04617">bulk-boundary correspondences in topological stabilizer codes</a>; this allowed us to extend known results on 2D stabilizer codes to fracton codes in higher-dimensions.</p>
       </div>
       </div>
 
