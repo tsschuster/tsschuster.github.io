@@ -32,10 +32,19 @@
   <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
 
   <style>
-  /* Make QIP labels non-bold and friendly blue */
+  /* Make all links the friendly light blue */
+  a {
+      color: #3C78D8 !important;
+      text-decoration: none;
+  }
+  a:hover {
+      text-decoration: underline;
+  }
+
+  /* QIP tags: keep them normal weight but in the theme's orange */
   .qip-tag {
       font-weight: normal !important;
-      color: #3C78D8;
+      color: #d35400 !important;  /* Flex theme link/orange */
   }
   </style>
 
@@ -213,7 +222,7 @@ Bryce Kobrin*, <strong>Thomas Schuster</strong>*, Maxwell Block, Weijie Wu, Brad
 <li>
 <p><em>The advantage of quantum control in many-body Hamiltonian learning</em>,<br>
 Alicjia Dutkiewicz, Thomas O'Brien, <strong>Thomas Schuster</strong>,<br>
-<a href="https://quantum-journal.org/papers/q-2024-11-26-1537/">Quantum (2024)</a>. <span class="qip-tag">(QIP 2024)<</span> </p>
+<a href="https://quantum-journal.org/papers/q-2024-11-26-1537/">Quantum (2024)</a>. <span class="qip-tag">(QIP 2024)</span> </p>
 </li>
 <li>
 <p><em>Operator growth in open quantum systems</em>,<br>
